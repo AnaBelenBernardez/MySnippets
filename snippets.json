@@ -1,0 +1,17 @@
+{
+  "html": {
+    "snippets": {
+      "page": "header>h1^nav+main+footer",
+      "nav": "nav>ul>(li>a{${2:Current Page}})+(li*3>a{${0:Another Page}})",
+      "styles": "link:css",
+      "favicon": "link[rel=\"icon\"][href=\"${1:/favicon.svg}\"][type=\"image/jpg/svg\"]",
+      "scripts": "script[src=\"script.js\"][type=\"${1:module}\"]",
+      "new": "!!!+html[lang=${lang}]>(head>meta[charset=UTF-8]+meta[name=viewport content=\"width=device-width, initial-scale=1.0\"]+styles+favicon+title{${1:Page title}})+body>page+scripts"
+    }
+  },
+  "css": {
+    "snippets": {
+      "resetcss": "margin: 0;\npadding: 0;\nbox-sizing: border-box;"
+    }
+  }
+}
