@@ -1,4 +1,4 @@
-# ⚡ My Snippets
+# ✂ My Snippets
 I have created my own Emmet snippets in VSCode. 
 I frequently use some specific abbreviations, so I saved them as snippets to enhance my workflow even further.
 
