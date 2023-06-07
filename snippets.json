@@ -11,7 +11,7 @@
   },
   "css": {
     "snippets": {
-      "resetcss": "margin: 0;\npadding: 0;\nbox-sizing: border-box;"
+      "resetcss": "margin: 0;\npadding: 0;\nbox-sizing: border-box;\nborder: 1px solid red;"
     }
   }
 }
